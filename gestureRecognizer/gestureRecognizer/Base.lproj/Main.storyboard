@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Mickey2.png" translatesAutoresizingMaskIntoConstraints="NO" id="t10-ze-QvU">
+                                <rect key="frame" x="121" y="185" width="121" height="229"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="y66-nn-8EX" appends="YES" id="wfS-0L-Fis"/>
+                                    <outletCollection property="gestureRecognizers" destination="Ds8-z4-FNQ" appends="YES" id="PJu-bU-gQl"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.57359737415565049" green="0.90312451540228955" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="L7R-eu-Hf2" appends="YES" id="Ypw-L2-BJF"/>
+                        </connections>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="singleTap" destination="L7R-eu-Hf2" id="qOA-IP-FXI"/>
+                        <outlet property="vista" destination="t10-ze-QvU" id="8Js-Ae-MOx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <pinchGestureRecognizer id="y66-nn-8EX">
+                    <connections>
+                        <action selector="handlePinchGesture:" destination="vXZ-lx-hvc" id="DhT-gy-agY"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="Ds8-z4-FNQ">
+                    <connections>
+                        <action selector="handlePanGesture:" destination="vXZ-lx-hvc" id="cM1-WK-eBK"/>
+                    </connections>
+                </panGestureRecognizer>
+                <tapGestureRecognizer id="L7R-eu-Hf2">
+                    <connections>
+                        <action selector="handleSingleTap:" destination="vXZ-lx-hvc" id="qfp-Gf-5oK"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="379.5" y="336.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Mickey2.png" width="184" height="264"/>
+    </resources>
+</document>

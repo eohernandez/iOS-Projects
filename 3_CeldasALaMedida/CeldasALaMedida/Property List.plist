@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>tipo</key>
+		<string>iPod shuffle</string>
+		<key>capacidad</key>
+		<string>2 GB</string>
+		<key>precio</key>
+		<integer>49</integer>
+		<key>urlFoto</key>
+		<string>http://store.storeimages.cdn-apple.com/4428/as-images.apple.com/is/image/AppleInc/aos/published/images/i/po/ipod/shuffle/ipod-shuffle-compare-hero-2014?wid=234&amp;hei=250&amp;fmt=png-alpha&amp;qlt=80&amp;.v=1403781135711</string>
+	</dict>
+	<dict>
+		<key>tipo</key>
+		<string>iPod nano</string>
+		<key>capacidad</key>
+		<string>16 GB</string>
+		<key>precio</key>
+		<integer>149</integer>
+		<key>urlFoto</key>
+		<string>http://store.storeimages.cdn-apple.com/4428/as-images.apple.com/is/image/AppleInc/aos/published/images/i/po/ipod/nano/ipod-nano-compare-hero-2014?wid=192&amp;hei=250&amp;fmt=png-alpha&amp;qlt=80&amp;.v=1403781131926</string>
+	</dict>
+	<dict>
+		<key>tipo</key>
+		<string>iPod touch</string>
+		<key>capacidad</key>
+		<string>16 GB</string>
+		<key>precio</key>
+		<integer>199</integer>
+		<key>urlFoto</key>
+		<string>http://store.storeimages.cdn-apple.com/4428/as-images.apple.com/is/image/AppleInc/aos/published/images/i/po/ipod/touch/ipod-touch-compare-hero-2014?wid=242&amp;hei=250&amp;fmt=png-alpha&amp;qlt=80&amp;.v=1411108892260</string>
+	</dict>
+	<dict>
+		<key>tipo</key>
+		<string>iPod touch</string>
+		<key>capacidad</key>
+		<string>32 GB</string>
+		<key>precio</key>
+		<integer>249</integer>
+		<key>urlFoto</key>
+		<string>http://store.storeimages.cdn-apple.com/4428/as-images.apple.com/is/image/AppleInc/aos/published/images/i/po/ipod/touch/ipod-touch-compare-hero-2014?wid=242&amp;hei=250&amp;fmt=png-alpha&amp;qlt=80&amp;.v=1411108892260</string>
+	</dict>
+	<dict>
+		<key>tipo</key>
+		<string>iPod touch</string>
+		<key>capacidad</key>
+		<string>64 GB</string>
+		<key>precio</key>
+		<integer>299</integer>
+		<key>urlFoto</key>
+		<string>http://store.storeimages.cdn-apple.com/4428/as-images.apple.com/is/image/AppleInc/aos/published/images/i/po/ipod/touch/ipod-touch-compare-hero-2014?wid=242&amp;hei=250&amp;fmt=png-alpha&amp;qlt=80&amp;.v=1411108892260</string>
+	</dict>
+</array>
+</plist>

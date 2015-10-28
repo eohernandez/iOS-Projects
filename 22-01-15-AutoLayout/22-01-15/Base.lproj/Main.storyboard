@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mVs-nn-Vl5"/>
+                        <viewControllerLayoutGuide type="bottom" id="UIy-gL-Yl1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="JLh-xk-GZq">
+                                <rect key="frame" x="99" y="226" width="123" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="123" id="FfG-Cs-iLa"/>
+                                    <constraint firstAttribute="height" constant="28" id="apC-gH-5Go"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                            </segmentedControl>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l6q-PG-4WV">
+                                <rect key="frame" x="36" y="283" width="249" height="169"/>
+                                <color key="backgroundColor" red="0.2726604616879551" green="0.5779869002525253" blue="0.26526415857265612" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uhd-dm-IvV">
+                                <rect key="frame" x="80" y="20" width="160" height="177"/>
+                                <color key="backgroundColor" red="0.50406975851183422" green="0.56989351514013231" blue="0.8659248737373737" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="JLh-xk-GZq" secondAttribute="centerX" id="85U-d6-s0u"/>
+                            <constraint firstItem="l6q-PG-4WV" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="20" id="9xX-wC-a2t"/>
+                            <constraint firstAttribute="centerY" secondItem="JLh-xk-GZq" secondAttribute="centerY" id="NHc-ip-LyC"/>
+                            <constraint firstItem="Uhd-dm-IvV" firstAttribute="top" secondItem="mVs-nn-Vl5" secondAttribute="bottom" id="af0-H8-PXF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="l6q-PG-4WV" secondAttribute="trailing" constant="19" id="bAa-w5-2Tq"/>
+                            <constraint firstItem="Uhd-dm-IvV" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="64" id="gEP-3J-fi3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Uhd-dm-IvV" secondAttribute="trailing" constant="64" id="j57-84-JGZ"/>
+                            <constraint firstItem="l6q-PG-4WV" firstAttribute="top" secondItem="JLh-xk-GZq" secondAttribute="bottom" constant="29" id="lYv-GH-GMd"/>
+                            <constraint firstItem="Uhd-dm-IvV" firstAttribute="top" secondItem="mVs-nn-Vl5" secondAttribute="bottom" id="otw-Tp-l0b"/>
+                            <constraint firstItem="JLh-xk-GZq" firstAttribute="top" secondItem="Uhd-dm-IvV" secondAttribute="bottom" constant="29" id="uhf-44-4H4"/>
+                            <constraint firstItem="UIy-gL-Yl1" firstAttribute="top" secondItem="l6q-PG-4WV" secondAttribute="bottom" constant="28" id="xkh-Sa-OhB"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="438" y="428"/>
+        </scene>
+    </scenes>
+</document>

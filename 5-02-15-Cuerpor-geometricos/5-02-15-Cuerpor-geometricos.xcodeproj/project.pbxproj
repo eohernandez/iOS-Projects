@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB7BFBA11A83EF7A007B292A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7BFBA01A83EF7A007B292A /* main.m */; };
+		FB7BFBA41A83EF7A007B292A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7BFBA31A83EF7A007B292A /* AppDelegate.m */; };
+		FB7BFBA71A83EF7A007B292A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7BFBA61A83EF7A007B292A /* ViewController.m */; };
+		FB7BFBAA1A83EF7A007B292A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB7BFBA81A83EF7A007B292A /* Main.storyboard */; };
+		FB7BFBAC1A83EF7A007B292A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB7BFBAB1A83EF7A007B292A /* Images.xcassets */; };
+		FB7BFBAF1A83EF7A007B292A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB7BFBAD1A83EF7A007B292A /* LaunchScreen.xib */; };
+		FB7BFBBB1A83EF7A007B292A /* __02_15_Cuerpor_geometricosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7BFBBA1A83EF7A007B292A /* __02_15_Cuerpor_geometricosTests.m */; };
+		FB7BFBC71A83F14E007B292A /* CuerposGeometricos.gif in Resources */ = {isa = PBXBuildFile; fileRef = FB7BFBC41A83F14E007B292A /* CuerposGeometricos.gif */; };
+		FB7BFBC81A83F14E007B292A /* EsferaAzul.png in Resources */ = {isa = PBXBuildFile; fileRef = FB7BFBC51A83F14E007B292A /* EsferaAzul.png */; };
+		FB7BFBC91A83F14E007B292A /* prismaRectangular.gif in Resources */ = {isa = PBXBuildFile; fileRef = FB7BFBC61A83F14E007B292A /* prismaRectangular.gif */; };
+		FB7BFBCC1A83F218007B292A /* ViewControllerEsfera.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7BFBCB1A83F218007B292A /* ViewControllerEsfera.m */; };
+		FB7BFBCF1A83F229007B292A /* ViewControllerPrisma.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7BFBCE1A83F229007B292A /* ViewControllerPrisma.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB7BFBB51A83EF7A007B292A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB7BFB931A83EF7A007B292A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB7BFB9A1A83EF7A007B292A;
+			remoteInfo = "5-02-15-Cuerpor-geometricos";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB7BFB9B1A83EF7A007B292A /* 5-02-15-Cuerpor-geometricos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "5-02-15-Cuerpor-geometricos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7BFB9F1A83EF7A007B292A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB7BFBA01A83EF7A007B292A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB7BFBA21A83EF7A007B292A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB7BFBA31A83EF7A007B292A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB7BFBA51A83EF7A007B292A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB7BFBA61A83EF7A007B292A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB7BFBA91A83EF7A007B292A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB7BFBAB1A83EF7A007B292A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FB7BFBAE1A83EF7A007B292A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FB7BFBB41A83EF7A007B292A /* 5-02-15-Cuerpor-geometricosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "5-02-15-Cuerpor-geometricosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7BFBB91A83EF7A007B292A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB7BFBBA1A83EF7A007B292A /* __02_15_Cuerpor_geometricosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __02_15_Cuerpor_geometricosTests.m; sourceTree = "<group>"; };
+		FB7BFBC41A83F14E007B292A /* CuerposGeometricos.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = CuerposGeometricos.gif; sourceTree = "<group>"; };
+		FB7BFBC51A83F14E007B292A /* EsferaAzul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EsferaAzul.png; sourceTree = "<group>"; };
+		FB7BFBC61A83F14E007B292A /* prismaRectangular.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = prismaRectangular.gif; sourceTree = "<group>"; };
+		FB7BFBCA1A83F218007B292A /* ViewControllerEsfera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerEsfera.h; sourceTree = "<group>"; };
+		FB7BFBCB1A83F218007B292A /* ViewControllerEsfera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerEsfera.m; sourceTree = "<group>"; };
+		FB7BFBCD1A83F229007B292A /* ViewControllerPrisma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerPrisma.h; sourceTree = "<group>"; };
+		FB7BFBCE1A83F229007B292A /* ViewControllerPrisma.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerPrisma.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB7BFB981A83EF7A007B292A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7BFBB11A83EF7A007B292A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB7BFB921A83EF7A007B292A = {
+			isa = PBXGroup;
+			children = (
+				FB7BFB9D1A83EF7A007B292A /* 5-02-15-Cuerpor-geometricos */,
+				FB7BFBB71A83EF7A007B292A /* 5-02-15-Cuerpor-geometricosTests */,
+				FB7BFB9C1A83EF7A007B292A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB7BFB9C1A83EF7A007B292A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB7BFB9B1A83EF7A007B292A /* 5-02-15-Cuerpor-geometricos.app */,
+				FB7BFBB41A83EF7A007B292A /* 5-02-15-Cuerpor-geometricosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB7BFB9D1A83EF7A007B292A /* 5-02-15-Cuerpor-geometricos */ = {
+			isa = PBXGroup;
+			children = (
+				FB7BFBA21A83EF7A007B292A /* AppDelegate.h */,
+				FB7BFBA31A83EF7A007B292A /* AppDelegate.m */,
+				FB7BFBA51A83EF7A007B292A /* ViewController.h */,
+				FB7BFBA61A83EF7A007B292A /* ViewController.m */,
+				FB7BFBA81A83EF7A007B292A /* Main.storyboard */,
+				FB7BFBCA1A83F218007B292A /* ViewControllerEsfera.h */,
+				FB7BFBCB1A83F218007B292A /* ViewControllerEsfera.m */,
+				FB7BFBCD1A83F229007B292A /* ViewControllerPrisma.h */,
+				FB7BFBCE1A83F229007B292A /* ViewControllerPrisma.m */,
+				FB7BFBAB1A83EF7A007B292A /* Images.xcassets */,
+				FB7BFBC41A83F14E007B292A /* CuerposGeometricos.gif */,
+				FB7BFBC51A83F14E007B292A /* EsferaAzul.png */,
+				FB7BFBC61A83F14E007B292A /* prismaRectangular.gif */,
+				FB7BFBAD1A83EF7A007B292A /* LaunchScreen.xib */,
+				FB7BFB9E1A83EF7A007B292A /* Supporting Files */,
+			);
+			path = "5-02-15-Cuerpor-geometricos";
+			sourceTree = "<group>";
+		};
+		FB7BFB9E1A83EF7A007B292A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB7BFB9F1A83EF7A007B292A /* Info.plist */,
+				FB7BFBA01A83EF7A007B292A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB7BFBB71A83EF7A007B292A /* 5-02-15-Cuerpor-geometricosTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB7BFBBA1A83EF7A007B292A /* __02_15_Cuerpor_geometricosTests.m */,
+				FB7BFBB81A83EF7A007B292A /* Supporting Files */,
+			);
+			path = "5-02-15-Cuerpor-geometricosTests";
+			sourceTree = "<group>";
+		};
+		FB7BFBB81A83EF7A007B292A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB7BFBB91A83EF7A007B292A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB7BFB9A1A83EF7A007B292A /* 5-02-15-Cuerpor-geometricos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB7BFBBE1A83EF7A007B292A /* Build configuration list for PBXNativeTarget "5-02-15-Cuerpor-geometricos" */;
+			buildPhases = (
+				FB7BFB971A83EF7A007B292A /* Sources */,
+				FB7BFB981A83EF7A007B292A /* Frameworks */,
+				FB7BFB991A83EF7A007B292A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "5-02-15-Cuerpor-geometricos";
+			productName = "5-02-15-Cuerpor-geometricos";
+			productReference = FB7BFB9B1A83EF7A007B292A /* 5-02-15-Cuerpor-geometricos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB7BFBB31A83EF7A007B292A /* 5-02-15-Cuerpor-geometricosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB7BFBC11A83EF7A007B292A /* Build configuration list for PBXNativeTarget "5-02-15-Cuerpor-geometricosTests" */;
+			buildPhases = (
+				FB7BFBB01A83EF7A007B292A /* Sources */,
+				FB7BFBB11A83EF7A007B292A /* Frameworks */,
+				FB7BFBB21A83EF7A007B292A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB7BFBB61A83EF7A007B292A /* PBXTargetDependency */,
+			);
+			name = "5-02-15-Cuerpor-geometricosTests";
+			productName = "5-02-15-Cuerpor-geometricosTests";
+			productReference = FB7BFBB41A83EF7A007B292A /* 5-02-15-Cuerpor-geometricosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB7BFB931A83EF7A007B292A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = ITESM;
+				TargetAttributes = {
+					FB7BFB9A1A83EF7A007B292A = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					FB7BFBB31A83EF7A007B292A = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = FB7BFB9A1A83EF7A007B292A;
+					};
+				};
+			};
+			buildConfigurationList = FB7BFB961A83EF7A007B292A /* Build configuration list for PBXProject "5-02-15-Cuerpor-geometricos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB7BFB921A83EF7A007B292A;
+			productRefGroup = FB7BFB9C1A83EF7A007B292A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB7BFB9A1A83EF7A007B292A /* 5-02-15-Cuerpor-geometricos */,
+				FB7BFBB31A83EF7A007B292A /* 5-02-15-Cuerpor-geometricosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB7BFB991A83EF7A007B292A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7BFBC81A83F14E007B292A /* EsferaAzul.png in Resources */,
+				FB7BFBC71A83F14E007B292A /* CuerposGeometricos.gif in Resources */,
+				FB7BFBAA1A83EF7A007B292A /* Main.storyboard in Resources */,
+				FB7BFBAF1A83EF7A007B292A /* LaunchScreen.xib in Resources */,
+				FB7BFBAC1A83EF7A007B292A /* Images.xcassets in Resources */,
+				FB7BFBC91A83F14E007B292A /* prismaRectangular.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7BFBB21A83EF7A007B292A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB7BFB971A83EF7A007B292A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7BFBA71A83EF7A007B292A /* ViewController.m in Sources */,
+				FB7BFBA41A83EF7A007B292A /* AppDelegate.m in Sources */,
+				FB7BFBCF1A83F229007B292A /* ViewControllerPrisma.m in Sources */,
+				FB7BFBCC1A83F218007B292A /* ViewControllerEsfera.m in Sources */,
+				FB7BFBA11A83EF7A007B292A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7BFBB01A83EF7A007B292A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7BFBBB1A83EF7A007B292A /* __02_15_Cuerpor_geometricosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB7BFBB61A83EF7A007B292A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB7BFB9A1A83EF7A007B292A /* 5-02-15-Cuerpor-geometricos */;
+			targetProxy = FB7BFBB51A83EF7A007B292A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB7BFBA81A83EF7A007B292A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB7BFBA91A83EF7A007B292A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB7BFBAD1A83EF7A007B292A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB7BFBAE1A83EF7A007B292A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB7BFBBC1A83EF7A007B292A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB7BFBBD1A83EF7A007B292A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB7BFBBF1A83EF7A007B292A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "5-02-15-Cuerpor-geometricos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB7BFBC01A83EF7A007B292A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "5-02-15-Cuerpor-geometricos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB7BFBC21A83EF7A007B292A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "5-02-15-Cuerpor-geometricosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/5-02-15-Cuerpor-geometricos.app/5-02-15-Cuerpor-geometricos";
+			};
+			name = Debug;
+		};
+		FB7BFBC31A83EF7A007B292A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "5-02-15-Cuerpor-geometricosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/5-02-15-Cuerpor-geometricos.app/5-02-15-Cuerpor-geometricos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB7BFB961A83EF7A007B292A /* Build configuration list for PBXProject "5-02-15-Cuerpor-geometricos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7BFBBC1A83EF7A007B292A /* Debug */,
+				FB7BFBBD1A83EF7A007B292A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB7BFBBE1A83EF7A007B292A /* Build configuration list for PBXNativeTarget "5-02-15-Cuerpor-geometricos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7BFBBF1A83EF7A007B292A /* Debug */,
+				FB7BFBC01A83EF7A007B292A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB7BFBC11A83EF7A007B292A /* Build configuration list for PBXNativeTarget "5-02-15-Cuerpor-geometricosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7BFBC21A83EF7A007B292A /* Debug */,
+				FB7BFBC31A83EF7A007B292A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB7BFB931A83EF7A007B292A /* Project object */;
+}
